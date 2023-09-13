@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color:rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Signika Negative', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: darkgreen;
+    height: 50px;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 10px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 79vh;
+    background-color: rgb(42, 42, 42);
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    width: 70%;
+    margin: 15px auto;
+    padding: 10px;
+    background-image: url(https://img.freepik.com/free-photo/gray-painted-background_53876-94041.jpg?w=1380&t=st=1690227838~exp=1690228438~hmac=5a54a1d1b3016b140f4d2cd9e2efe1d376236e1b9c8c6962c5689422d84de564);
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    width: 500px;
+    margin:12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.songItem img{
+    width: 50px;
+    margin: 0px 23px;
+    border-radius: 10px;
+}
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    background-color: black;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.songInfo{
+    display: flex;
+    position: absolute;
+    left: 10vw;
+    align-items: center;
+}
+.songInfo img{
+    width: 45px;
+    opacity: 0;
+    transition: 0.1s ease-in;
+}
+#playerBar{
+    width: 80vw;
+}
+.icons{
+    margin: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
